@@ -1,0 +1,88 @@
+﻿@model IEnumerable<Pc3practica.Models.Productos>
+@{
+    ViewData["Title"] = "Home Page";
+}
+  
+<div class="card text-center" >
+  <div class="card-header" >
+  </div>
+  <div class="card-body">
+    <h5 class="card-title"><h2 style="-webkit-text-stroke: 2px;"> Productos </h2></h5>
+    <p class="card-text">
+    </p>
+  </div>
+  <div class="card-footer text-muted">
+  </div>
+</div>
+
+
+<table class="table table-hover" >
+    <thead >
+        <tr >
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImagenName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.telefono)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+              <th>
+                @Html.DisplayNameFor(model => model.NombreC)
+            </th>
+               <th>
+                @Html.DisplayNameFor(model => model.Lugar)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+        <td>
+            <div style="text-align:center;" >
+        		<img src="@item.ImagenName" class="card-img-top" alt="..." style=" with: 250px;">
+            </div>
+            </td>
+             <td>
+                 @Html.DisplayFor(modelItem => item.Categoria)
+            </td>
+             <td>
+                 @Html.DisplayFor(modelItem => item.telefono)
+            </td>
+              <td>
+                 @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+              <td>
+                  @Html.DisplayFor(modelItem => item.NombreC)
+            </td>
+            <td>
+                  @Html.DisplayFor(modelItem => item.Lugar)
+            </td>
+
+            
+        </tr>
+}
+    </tbody>
+</table>
+<div style="margin-top: 5%; text-align: center;">
+<p>
+    <a class="btn btn-light" asp-action="Create" >Crear nuevo Producto</a>
+</p>
+</div>
