@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gisBt97TtHx3PGL6+Si9TN7iugG24xfW4jHFuZAuq0sRhFDK7jMrTnUPFw+lBujq0GjFtuoBoPiQOo7Zszfr5g==",
+  "dgSpecHash": "YhCCwPD5R6Rw+4+Jj0D2NZH/2b0TYszF46Qm6q76eZzrXcGm7pXQMn4VYLHyuk5A2bcBGA7ijhS+1Pu/PQKeCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KARLA\\Desktop\\Pc3practica\\Pc3practica.csproj",
+  "projectFilePath": "D:\\USMP (2021-II)\\PROGRA 1-TEORIA\\PC03\\Pc3practica\\Pc3practica.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KARLA\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\KARLA\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.7\\microsoft.aspnetcore.cryptography.internal.5.0.7.nupkg.sha512",

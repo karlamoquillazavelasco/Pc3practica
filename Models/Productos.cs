@@ -16,6 +16,7 @@ namespace Pc3practica.Models
 
         [Display(Name="Nombre Producto")]
         public String Name {get; set;}
+        
 
         [Required(ErrorMessage = "Porfavor ingrese el precio")]
         [Display(Name="Precio")]

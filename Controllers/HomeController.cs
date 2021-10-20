@@ -112,40 +112,12 @@ namespace Pc3practica.Controllers
                         throw;
                     }
                 }
-                 TempData["prueba02"] = "prueba02";
+                
                 return RedirectToAction(nameof(Index));
             }
             return View(producto);
         }
 
-        // GET: Producto/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var producto = await _context.DataProductos
-                .FirstOrDefaultAsync(m => m.ID == id);
-            if (producto == null)
-            {
-                return NotFound();
-            }
-           TempData["prueba03"] = "prueba03";
-            return View(producto);
-        }
-
-        // POST: Producto/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var producto = await _context.DataProductos.FindAsync(id);
-            _context.DataProductos.Remove(producto);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
 
         private bool ProductoExists(int id)
         {

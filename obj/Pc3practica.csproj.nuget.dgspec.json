@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KARLA\\Desktop\\Pc3practica\\Pc3practica.csproj": {}
+    "D:\\USMP (2021-II)\\PROGRA 1-TEORIA\\PC03\\Pc3practica\\Pc3practica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KARLA\\Desktop\\Pc3practica\\Pc3practica.csproj": {
+    "D:\\USMP (2021-II)\\PROGRA 1-TEORIA\\PC03\\Pc3practica\\Pc3practica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KARLA\\Desktop\\Pc3practica\\Pc3practica.csproj",
+        "projectUniqueName": "D:\\USMP (2021-II)\\PROGRA 1-TEORIA\\PC03\\Pc3practica\\Pc3practica.csproj",
         "projectName": "Pc3practica",
-        "projectPath": "C:\\Users\\KARLA\\Desktop\\Pc3practica\\Pc3practica.csproj",
+        "projectPath": "D:\\USMP (2021-II)\\PROGRA 1-TEORIA\\PC03\\Pc3practica\\Pc3practica.csproj",
         "packagesPath": "C:\\Users\\KARLA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KARLA\\Desktop\\Pc3practica\\obj\\",
+        "outputPath": "D:\\USMP (2021-II)\\PROGRA 1-TEORIA\\PC03\\Pc3practica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KARLA\\AppData\\Roaming\\NuGet\\NuGet.Config"

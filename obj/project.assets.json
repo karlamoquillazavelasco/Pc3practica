@@ -1554,11 +1554,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\KARLA\\Desktop\\Pc3practica\\Pc3practica.csproj",
+      "projectUniqueName": "d:\\USMP (2021-II)\\PROGRA 1-TEORIA\\PC03\\Pc3practica\\Pc3practica.csproj",
       "projectName": "Pc3practica",
-      "projectPath": "c:\\Users\\KARLA\\Desktop\\Pc3practica\\Pc3practica.csproj",
+      "projectPath": "d:\\USMP (2021-II)\\PROGRA 1-TEORIA\\PC03\\Pc3practica\\Pc3practica.csproj",
       "packagesPath": "C:\\Users\\KARLA\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\KARLA\\Desktop\\Pc3practica\\obj\\",
+      "outputPath": "d:\\USMP (2021-II)\\PROGRA 1-TEORIA\\PC03\\Pc3practica\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\KARLA\\AppData\\Roaming\\NuGet\\NuGet.Config"
